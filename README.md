@@ -13,6 +13,16 @@ Para este proyecto, se implementaron 3 mejoras funcionales sobre el modelo bási
 2. **Múltiples Planes:** Los usuarios pueden elegir entre 3 planes (Básico, Pro, Premium) con diferentes precios definidos por el administrador.
 3. **Check-in con Rachas:** Los usuarios pueden registrar su asistencia diaria. El programa usa el reloj de Solana (`Clock::get()`) para validar que no hagan check-in dos veces el mismo día y calcular su racha de días consecutivos.
 
+## Enlaces del Proyecto
+* **Repositorio Backend (Smart Contract):** [https://github.com/yuliss-vs/proyecto-suscripciones-gym](https://github.com/yuliss-vs/proyecto-suscripciones-gym)
+* **Repositorio Frontend (Interfaz Web):** [https://github.com/yuliss-vs/suscripciones-gym-frontend](https://github.com/yuliss-vs/suscripciones-gym-frontend)
+
+## Frontend
+Se desarrolló una interfaz web moderna y funcional con React + Vite. 
+* **Conexión Wallet:** Utiliza `@solana/wallet-adapter` para conectar la Phantom Wallet en la red Devnet.
+* **Interacción:** Permite a los usuarios ingresar su ID y seleccionar un plan para enviar la transacción `suscribirse` a la blockchain.
+* **Envío de Transacciones:** Para evitar conflictos con librerías de Anchor en el navegador, las transacciones se construyen de manera nativa usando `@solana/web3.js`.
+
 ## Pruebas y Evidencias
 A continuación se detallan las pruebas realizadas en Devnet. Todas las transacciones exitosas cuentan con su enlace verificable en Solana Explorer.
 
