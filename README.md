@@ -1,4 +1,4 @@
-# Gestor de Suscripciones para Gimnasio (SaaS) - Advanced Bootcamp
+# Gestor de Suscripciones para Gimnasio 
 
 **Alumno:** Yuliss
 **Program ID:** J9dL6jC5u65vpaSafAG3xUqzPC8HUKhW6k9R2UbnAKDE
